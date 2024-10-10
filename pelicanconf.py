@@ -1,6 +1,6 @@
 AUTHOR = 'Morgan Prior'
 SITENAME = 'ArtisanSawdust'
-SITEURL = ""
+SITEURL = "http://artisansawdust.github.io"
 
 PATH = "content"
 
