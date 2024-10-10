@@ -4,9 +4,10 @@
                         <meta charset="utf-8" />
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                         <meta name="generator" content="Pelican" />
-                        <title>ArtisanSawdust</title>
+                        <title>CGNAT</title>
                         <link rel="stylesheet" href="/theme/css/main.css" />
                                 <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ArtisanSawdust Atom Feed" />
+    <meta name="description" content="Carrier-Grade Natwork Address Translation (CGNAT) Somtime also just known as Carrier-Grade NAT. This can cause issues with Home users wanting to..." />
         </head>
 
         <body id="index" class="home">
@@ -14,13 +15,18 @@
                         <h1><a href="/">ArtisanSawdust</a></h1>
                         <nav><ul>
                                                 <li><a href="/pages/about.html">About</a></li>
-                                                <li><a href="/category/networking.html">Networking</a></li>
+                                                <li class="active"><a href="/category/networking.html">Networking</a></li>
                         </ul></nav>
                 </header><!-- /#banner -->
+  <section id="content" class="body">
+    <article>
+      <header>
+        <h1 class="entry-title">
+          <a href="/cgnat.html" rel="bookmark"
+             title="Permalink to CGNAT">CGNAT</a></h1>
+      </header>
 
-                <aside id="featured" class="body">
-                    <article>
-                        <h1 class="entry-title"><a href="/cgnat.html">CGNAT</a></h1>
+      <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2024-09-26T10:43:00+02:00">
                 Published: Thu 26 September 2024
@@ -31,14 +37,17 @@
                 </address>
         <p>In <a href="/category/networking.html">Networking</a>.</p>
 <p>tags: <a href="/tag/network.html">network</a> <a href="/tag/isp.html">isp</a> </p>        
-</footer><!-- /.post-info --><p>Carrier-Grade Natwork Address Translation (CGNAT)
+</footer><!-- /.post-info -->        <p>Carrier-Grade Natwork Address Translation (CGNAT)
 Somtime also just known as Carrier-Grade NAT. This can cause issues with Home users wanting to setup there own home vpn or host a service accessible from the internet, for example a minecraft server to play with friends.</p>
 <p>The issue that arrises with a home router, or combined switch router and modem, gets an IP address then uses NAT (Network Address Translation) to take the internal network device IP addresses, and make requests on to the internet, keeping track of which device requested the response.</p>
 <p>Your router cn then be setup to forward ports to a specific internal device, a minecraft server etc. this essentially give the public IP address your router has look like your device on that particular port, it is accessible by the public internet.</p>
 <p>Some ISPs (GoFibre) use Carrier-Grade NAT so that instead of assigning your router a public IP address they assine it an interal one and many households share the public IP address with the CGNAT Keeping track of who asked for what.  </p>
 <p>Therfore as the Carrier-Grade NAT is outside of the users control it is no longer possible to setup a public facing port to direct them to your service.</p>
-<p>Some Solutions that we have looked into:</p>                    </article>
-                </aside><!-- /#featured -->
+<p>Some Solutions that we have looked into:</p>
+      </div><!-- /.entry-content -->
+
+    </article>
+  </section>
                 <section id="extras" class="body">
                                 <div class="social">
                                         <h2>social</h2>
